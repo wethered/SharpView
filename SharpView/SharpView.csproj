@@ -53,7 +53,7 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SharpView.Program</StartupObject>
+    <StartupObject>SharpView.Ironman</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PCRE.NET, Version=0.7.0.0, Culture=neutral, PublicKeyToken=8f58d558eeff25a3, processorArchitecture=MSIL">
@@ -152,6 +152,7 @@
     <Compile Include="Arguments\Args_Get_DomainUserEvent.cs" />
     <Compile Include="Arguments\Args_Get_ForestGlobalCatalog.cs" />
     <Compile Include="Arguments\Args_Get_ForestDomain.cs" />
+    <Compile Include="Ironman.cs" />
     <Compile Include="Enums\LogonType.cs" />
     <Compile Include="Enums\ClassType.cs" />
     <Compile Include="Enums\SPNTicketFormat.cs" />
